@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:elevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/panel_bg"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/cardview_default_radius">
+
+            <include
+                layout="@layout/layout_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="@dimen/cardview_default_radius">
+
+            <include layout="@layout/setting_language_layout" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/cardview_default_radius">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_output"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding_item_on_input"
+                android:hint="@string/hint_output"
+                android:textColor="@color/black_text_color"
+                android:textColorHint="@color/text_color_hint" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_btn"
+            android:drawableLeft="@drawable/ic_home"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/go_to_main"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/sp_source"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.45"
+        android:background="@drawable/bg_spiner"
+        android:popupBackground="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_swap_lang"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.1"
+        android:background="@null"
+        android:src="@drawable/ic_swap" />
+
+    <Spinner
+        android:id="@+id/sp_des"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.45"
+        android:background="@drawable/bg_spiner"
+        android:popupBackground="@color/white" />
+</LinearLayout>

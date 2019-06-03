@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dịch tiếng Anh &amp; Đa ngôn ngữ</string>
+    <string name="about_us">G.Thiệu</string>
+    <string name="favorite_ac">Yêu thích</string>
+
+    <string name="speech_prompt">Xin mời nói</string>
+    <string name="hint_output">Nghĩa</string>
+    <string name="hint_input">Nhập từ cần dịch</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Hủy</string>
+    <string name="no_history">Không có lịch sử</string>
+    <string name="share_translate_text">Chia sẻ bản dịch</string>
+    <string name="translate">Translate</string>
+
+    <string name="title_share_app">Chia sẻ với mọi người</string>
+    <string name="title_confirm_delete">Xác nhận xóa</string>
+    <string name="mss_delete_all">Bạn thực sự muốn xóa tất cả các bản dịch?</string>
+    <string name="mss_delete">Bạn thực sự muốn xóa bản dịch này?</string>
+    <string name="title_missing_extention">Cài đặt phần bị thiếu</string>
+    <string name="mss_install_stt">Bạn có muốn cài đặt Google Speech to text?</string>
+    <string name="title_missing_packet">Cài đặt gói còn thiếu</string>
+    <string name="mss_install_tts">Bạn có muốn cài đặt Google Text to Speech?</string>
+    <string name="title_no_internet">Không có kết nối internet</string>
+    <string name="mss_request_internet_for_app">Vui lòng bật kết nối mạng để sử dụng ứng dụng</string>
+    <string name="mss_request_internet_for_translate">Vui lòng bật kết nối mạng để sử dụng chức năng dịch và thử lại</string>
+
+    <string name="done">Xong</string>
+    <string name="orc_result">Orc kết quả</string>
+    <string name="action_done">Xong</string>
+    <string name="not_translate_same_lang">Không dịch cùng ngôn ngữ</string>
+    <string name="open_galley">Mở bộ sưu tập</string>
+    <string name="open_camera">Mở máy ảnh</string>
+    <string name="not_support_tts_language">Không hỗ trợ chuyển văn bản thành giọng nói với ngôn ngữ này</string>
+    <string name="translating">Đang dịch</string>
+    <string name="searching_text">Đang tìm kiếm văn bản</string>
+    <string name="go_to_main">Tới màn chính</string>
+
+    <string name="orc">Ảnh</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="speak">Nói</string>
+    <string name="float_widget">Tiện ích</string>
+    <string name="delete_all">Xóa hết</string>
+    <string name="float_widget_running">Tiện ích động đang chạy</string>
+    <string name="no_favorite_translations">Không có bản dịch yêu thích</string>
+    <string name="share_app">Chia sẻ</string>
+    <string name="rate_app">Đánh giá</string>
+    <string name="toast_not_support_stt">not support speechtotext</string>
+    <string name="tts_no_result">Không rõ kết quả</string>
+    <string name="toast_stt_not_support_language">Không hỗ trợ ngôn ngữ này</string>
+    <string name="null_text">Từ nhập trống</string>
+
+    <string name="dialog_capquyen_title">Cấp quyền</string>
+    <string name="dialog_capquyen_mess">Xin vui lòng cấp quyền Vẽ lên ứng dụng khác để ứng dụng có thể chạy và hiển thị Phím Tắt</string>
+    <string name="doublebackexit">Ấn lại để thoát</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp">
+
+    <LinearLayout
+        android:id="@+id/btn_open_orc_option"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_image" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_favor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_favorite" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_float_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_button" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/float_widget" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_mic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_mic" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/speak" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_delete_all"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_delete" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_all" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/btn_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_info" />
+
+        <TextView
+            style="@style/BottomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spiner_radius">15dp</dimen>
+    <dimen name="btn_input_size">35dp</dimen>
+    <dimen name="input_height">25dp</dimen>
+    <dimen name="padding_item_on_input">3dp</dimen>
+    <dimen name="lang_title_size">14sp</dimen>
+    <dimen name="item_recent_btn_size">25dp</dimen>
+    <dimen name="item_recent_title">14sp</dimen>
+    <dimen name="item_recent_content">16sp</dimen>
+</resources>

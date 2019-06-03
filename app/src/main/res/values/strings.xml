@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Translator Multi Languages</string>
+    <string name="about_us">About</string>
+    <string name="favorite_ac">Favorite</string>
+
+    <string name="speech_prompt">Let me hear your voice</string>
+    <string name="hint_output">Output</string>
+    <string name="hint_input">Input</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_history">No history</string>
+    <string name="share_translate_text">Share translate text</string>
+    <string name="translate">Translate</string>
+
+    <string name="title_share_app">Share with your friends</string>
+    <string name="title_confirm_delete">Confirm delete</string>
+    <string name="mss_delete_all">Do you really want to delete all translations?</string>
+    <string name="mss_delete">Do you really want to delete this translation?</string>
+    <string name="title_missing_extention">Install missing extension</string>
+    <string name="mss_install_stt">Do you want install Google Speech to text?</string>
+    <string name="title_missing_packet">Install missing packet</string>
+    <string name="mss_install_tts">Do you want install Google Text to speech?</string>
+    <string name="title_no_internet">No Internet connection</string>
+    <string name="mss_request_internet_for_app">Please turn on the network connection to use the application</string>
+    <string name="mss_request_internet_for_translate">Please turn on the network connection to use the translate function and try again</string>
+
+    <string name="done">Done</string>
+    <string name="orc_result">Orc result</string>
+    <string name="action_done">Done</string>
+    <string name="not_translate_same_lang">Do not translate the same language</string>
+    <string name="open_galley">Open Galley</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="not_support_tts_language">Not support text to speech on this language</string>
+    <string name="translating">Translating...</string>
+    <string name="searching_text">Searching text...</string>
+    <string name="go_to_main">Go to Main</string>
+
+    <string name="orc">Orc</string>
+    <string name="favorite">Favorite</string>
+    <string name="speak">Speak</string>
+    <string name="float_widget">Float widget</string>
+    <string name="delete_all">Delete All</string>
+    <string name="float_widget_running">Float widget is running</string>
+    <string name="no_favorite_translations">No favorite translations</string>
+    <string name="share_app">Share</string>
+    <string name="rate_app">Rate</string>
+    <string name="toast_not_support_stt">not support speechtotext</string>
+    <string name="tts_no_result">Unknown results</string>
+    <string name="toast_stt_not_support_language">Not support this Language</string>
+    <string name="null_text">null text</string>
+
+    <string name="dialog_capquyen_title">Allow Permission</string>
+    <string name="dialog_capquyen_mess">Please allow Draw overlay permission for app to run Floating widget function.</string>
+    <string name="doublebackexit">Pressed again to exit</string>
+</resources>

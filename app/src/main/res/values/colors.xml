@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#439b46</color>
+    <color name="colorAccent">#6b777b</color>
+    <color name="bg_spiner">@color/white</color>
+    <color name="lang_title">#222</color>
+    <color name="bg_easytouch">#e2555555</color>
+    <color name="black_text_color">#292929</color>
+    <color name="bg_white">#eee</color>
+    <color name="text_color_hint">#bababa</color>
+    <color name="panel_bg">@color/colorPrimary</color>
+    <color name="white">#fff</color>
+    <color name="icon_color">#94c5f0</color>
+    <color name="gray">#ccc</color>
+    <color name="lightgrey">#e6e3e3</color>
+    <color name="red">#c10505</color>
+    <color name="lightred">#ff2b2b</color>
+    <color name="spiner_divider">#ddd</color>
+    <color name="ico_gray">#787878</color>
+    <color name="icon_bottom_color">#d4ebff</color>
+    <color name="icon_clear_color">#949494</color>
+    <color name="icon_with_app_color">@color/colorPrimary</color>
+    <color name="icon_star">#ffbb00</color>
+    <color name="btn_botton_hover">#ebffffff</color>
+    <color name="btn_bottom_normal">#14ffffff</color>
+    <color name="btn_bottom_press">#b379c7f7</color>
+</resources>
